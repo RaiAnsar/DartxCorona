@@ -23,6 +23,6 @@ main() {
   for (var fruit in fruitCollection) {
     print(fruit);
   }
-
-  print(fruitCollection.lookup("AppleS"));
+// .lookup is kind of search feature if given value doesn't match it returns "null".
+  print(fruitCollection.lookup("Mac"));
 }
